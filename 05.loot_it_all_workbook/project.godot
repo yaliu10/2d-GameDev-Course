@@ -13,7 +13,7 @@ config_version=5
 config/name="M5. Loot it All (Workbook)"
 run/main_scene="res://lessons/space_level.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
-config/icon="res://icon.png"
+config/icon="res://assets/icon.png"
 
 [autoload]
 
