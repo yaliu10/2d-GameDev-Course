@@ -1,18 +1,16 @@
-[gd_scene load_steps=3 format=3]
+[gd_scene load_steps=2 format=3 uid="uid://b8uld0rvbkrp8"]
 
-[ext_resource type="PackedScene" path="res://practices/L7.P1.spawn_random_items/random_collectible_placer.tscn" id="1_xxubk"]
-[ext_resource type="Script" path="res://practices/L7.P1.spawn_random_items/random_collectible_placer.gd" id="2_fmxc1"]
+[ext_resource type="PackedScene" uid="uid://d8m0qni6xrg2" path="res://practices/L7.P1.spawn_random_items/random_collectible_placer.tscn" id="1_xxubk"]
 
 [node name="SpawnRandomItems" type="Node2D"]
+position = Vector2(1208, 399)
 
-[node name="RandomCollectiblePlacer" type="Node2D" parent="." instance=ExtResource("1_xxubk")]
-position = Vector2(960, 540)
-script = ExtResource("2_fmxc1")
+[node name="RandomCollectiblePlacer" parent="." instance=ExtResource("1_xxubk")]
+position = Vector2(-724, 78)
 
 [node name="ExtraVisuals" type="Node" parent="."]
 
 [node name="Camera2D" type="Camera2D" parent="ExtraVisuals"]
-position = Vector2(960, 540)
 
 [node name="CanvasLayer" type="CanvasLayer" parent="ExtraVisuals"]
 layer = -1
