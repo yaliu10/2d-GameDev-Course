@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://brniy2du0tli8"
-path="res://.godot/imported/icon_looting.png-355f3c516853ab9609ff066a64ebd0b1.ctex"
+path="res://.godot/imported/icon_looting.png-b0976e235de4810f8e6b2f7f05a130f8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://icon_looting.png"
-dest_files=["res://.godot/imported/icon_looting.png-355f3c516853ab9609ff066a64ebd0b1.ctex"]
+source_file="res://assets/icon_looting.png"
+dest_files=["res://.godot/imported/icon_looting.png-b0976e235de4810f8e6b2f7f05a130f8.ctex"]
 
 [params]
 

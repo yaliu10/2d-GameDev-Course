@@ -14,7 +14,7 @@ config/name="M6. Looting (Workbook)"
 config/tags=PackedStringArray("workbook")
 run/main_scene="res://lessons/mini_dungeon.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
-config/icon="res://icon_looting.png"
+config/icon="res://assets/icon_looting.png"
 
 [autoload]
 
